@@ -1,0 +1,1 @@
+export const positions = ["AI", "Android", "Backend", "Big Data", "Block Chain", "Cloud", "DBA", "Desktop", "DevOps", "Embeded", "Frontend", "Game", "HW", "IoT", "Mobile", "Network", "OS", "QA", "Robotics", "SW", "Security", "Server", "System", "Web", "iOS"]

@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Assemble",
+    "slug": "Assemble",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "icon": "./assets/pictures/logo2.png",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app uses images for the purpose of uploading content and using your profile."
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/pictures/badge.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.assemble.assembleapp",
+      "buildNumber": "1.0.9"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pictures/logo2.png"
+      },
+      "package": "com.assemble.assembleapp",
+      "versionCode": 10
+    },
+    "description": "Side project app for developer"
+  }
+}
